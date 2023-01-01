@@ -1,0 +1,559 @@
+.StyDiv {
+    margin: 0 20vh;
+    overflow-x: hidden;
+}
+
+.StyDivSli {
+    display: flex;
+    cursor: grab;
+    width: 600rem;
+    
+}
+
+.StyDivItm {
+    width: 49.3rem;
+    height: 21rem;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.547);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.58);
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.527);
+    margin: 2rem;
+    border-radius: 1vh;
+    transition: all .5s ease;
+}
+.StyDivItm:hover{
+    transform: scale(1.05);
+}
+
+.StyDivItm img {
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    border-radius: 1vh;
+}
+
+
+
+
+
+
+
+
+
+.StyDivTarg{
+    display: flex;
+    width: 600rem;
+}
+
+
+.slider{
+    cursor: grab;
+    margin: 2vh 4.1vh;
+    width: 25vh;
+    height: 25vh;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(135, 135, 135, 0.547);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(167, 167, 167, 0.58);
+    box-shadow: 0px 0px 24px 0px rgba(128, 128, 128, 0.527);
+    border-radius: 1vh;
+    transition: all .5s ease;
+    
+    
+}
+
+
+.CartAdd{
+    display: flex;
+    flex-direction: row-reverse;
+    cursor: pointer;
+    padding: .5vh;
+    
+}
+
+.CartAdd img{
+    padding: .2vh;
+    position: absolute;
+    width: 2vh;
+    background-color: black;
+    border-radius: .3vh;
+    margin: 2px;
+    transition: all 1s ease;
+}
+
+.CartAdd img:hover{
+    transform: rotate(360deg);
+    border: .2vh solid rgb(0, 0, 0);
+}
+
+
+.slider:hover{
+    transform: scale(1.165);
+    
+}
+
+.slides{
+    width: 100vh;
+    height: 10.672358591248665vh;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+
+
+.nameImg{
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+    background-color: black;
+    color: white;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    height: 16vh;
+    width: 25vh;
+    position: relative;
+    justify-content: center;
+    top: 2.2vh;
+}
+
+.slide img{
+    width: 67%;
+    pointer-events: none;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 21.34471718249733vh;
+    margin-top: 10.57vh;
+    display: flex;
+    justify-content: center ;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    padding: .2vh 1.8vh 1vh 1.8vh;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+
+
+.manual-btn{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0.5336179295624333vh ;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(135, 135, 135, 0.547);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(167, 167, 167, 0.58);
+    box-shadow: 0px 0px 24px 0px rgba(128, 128, 128, 0.527);
+  
+}
+
+
+.CartPrice{
+    position: absolute;
+    top: -1.8vh;
+    left: 1.2vh;
+    transition: all 2s ease;
+}
+
+
+.slider #facherito{
+    display: none;
+   transition: all 1s ease;
+}
+
+.slider:hover #facherito{
+    display: flex;
+} 
+
+
+
+
+.DivCart{
+    position: absolute;
+    border-radius: .5vh;
+    border: .25vh solid black;
+    background-color: rgb(255, 255, 255);
+    right: 44vh;
+    top: 7.5vh;
+    color: black;
+}
+
+.divItemsCart{
+    display: flex;
+    flex-direction: row;
+    width: 42vh;
+    align-items: center;
+    border-bottom:2px solid black ;
+}
+
+.Spans{
+    margin: 2vh 5vh;
+    font-size: 18px;
+
+}
+.PCart{
+    font-size: 20px;
+    
+}
+
+.XCart{
+    position: absolute;
+    left: 1vh;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+}
+
+.total-pagar{
+    margin: 1vh;
+    font-family: Ubuntu;
+    font-size: 20px;
+}
+
+.btn-clear-all{
+    font-size: 14px;
+    padding: 1vh 2vh;
+   border: 2px solid black ;
+   border-radius: .5vh;
+   background-color: white;
+   margin-bottom: 1vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.manual-btn:not(:last-child){
+    margin-right: 4.268943436499466vh;
+}
+
+.manual-btn:hover{
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+#radio11:checked ~ .primera10{
+    margin-left: 0;
+}
+
+#radio12:checked ~ .primera10{
+    margin-left: -25%;
+}
+
+#radio13:checked ~ .primera10{
+    margin-left: -50%;
+}
+
+#radio14:checked ~ .primera10{
+    margin-left: -75%;
+}
+
+
+#radio21:checked ~ .primera20{
+    margin-left: 0;
+}
+
+#radio22:checked ~ .primera20{
+    margin-left: -25%;
+}
+
+#radio23:checked ~ .primera20{
+    margin-left: -50%;
+}
+
+#radio24:checked ~ .primera20{
+    margin-left: -75%;
+}
+
+
+#radio31:checked ~ .primera30{
+    margin-left: 0;
+}
+
+#radio32:checked ~ .primera30{
+    margin-left: -25%;
+}
+
+#radio33:checked ~ .primera30{
+    margin-left: -50%;
+}
+
+#radio34:checked ~ .primera30{
+    margin-left: -75%;
+}
+
+
+#radio41:checked ~ .primera40{
+    margin-left: 0;
+}
+
+#radio42:checked ~ .primera40{
+    margin-left: -25%;
+}
+
+#radio43:checked ~ .primera40{
+    margin-left: -50%;
+}
+
+#radio44:checked ~ .primera40{
+    margin-left: -75%;
+}
+
+#radio15:checked ~ .primera10{
+    margin-left: 0;
+}
+
+#radio16:checked ~ .primera10{
+    margin-left: -25%;
+}
+
+#radio17:checked ~ .primera10{
+    margin-left: -50%;
+}
+
+#radio18:checked ~ .primera10{
+    margin-left: -75%;
+}
+
+
+#radio25:checked ~ .primera20{
+    margin-left: 0;
+}
+
+#radio26:checked ~ .primera20{
+    margin-left: -25%;
+}
+
+#radio27:checked ~ .primera20{
+    margin-left: -50%;
+}
+
+#radio28:checked ~ .primera20{
+    margin-left: -75%;
+}
+
+
+#radio35:checked ~ .primera30{
+    margin-left: 0;
+}
+
+#radio36:checked ~ .primera30{
+    margin-left: -25%;
+}
+
+#radio37:checked ~ .primera30{
+    margin-left: -50%;
+}
+
+#radio38:checked ~ .primera30{
+    margin-left: -75%;
+}
+
+
+#radio45:checked ~ .primera40{
+    margin-left: 0;
+}
+
+#radio46:checked ~ .primera40{
+    margin-left: -25%;
+}
+
+#radio47:checked ~ .primera40{
+    margin-left: -50%;
+}
+
+#radio48:checked ~ .primera40{
+    margin-left: -75%;
+}
+
+
+
+
+
+
+
+
+
+#radio51:checked ~ .primera50{
+    margin-left: 0;
+}
+
+#radio52:checked ~ .primera50{
+    margin-left: -25%;
+}
+
+#radio53:checked ~ .primera50{
+    margin-left: -50%;
+}
+
+#radio54:checked ~ .primera50{
+    margin-left: -75%;
+}
+
+#radio61:checked ~ .primera60{
+    margin-left: 0;
+}
+
+#radio62:checked ~ .primera60{
+    margin-left: -25%;
+}
+
+#radio63:checked ~ .primera60{
+    margin-left: -50%;
+}
+
+#radio64:checked ~ .primera60{
+    margin-left: -75%;
+}
+
+
+#radio71:checked ~ .primera70{
+    margin-left: 0;
+}
+
+#radio72:checked ~ .primera70{
+    margin-left: -25%;
+}
+
+#radio73:checked ~ .primera70{
+    margin-left: -50%;
+}
+
+#radio74:checked ~ .primera70{
+    margin-left: -75%;
+}
+
+
+#radio81:checked ~ .primera80{
+    margin-left: 0;
+}
+
+#radio82:checked ~ .primera80{
+    margin-left: -25%;
+}
+
+#radio83:checked ~ .primera80{
+    margin-left: -50%;
+}
+
+#radio84:checked ~ .primera80{
+    margin-left: -75%;
+}
+
+#radio55:checked ~ .primera50{
+    margin-left: 0;
+}
+
+#radio56:checked ~ .primera50{
+    margin-left: -25%;
+}
+
+#radio57:checked ~ .primera50{
+    margin-left: -50%;
+}
+
+#radio58:checked ~ .primera50{
+    margin-left: -75%;
+}
+
+
+#radio65:checked ~ .primera60{
+    margin-left: 0;
+}
+
+#radio66:checked ~ .primera60{
+    margin-left: -25%;
+}
+
+#radio67:checked ~ .primera60{
+    margin-left: -50%;
+}
+
+#radio68:checked ~ .primera60{
+    margin-left: -75%;
+}
+
+
+#radio75:checked ~ .primera70{
+    margin-left: 0;
+}
+
+#radio76:checked ~ .primera70{
+    margin-left: -25%;
+}
+
+#radio77:checked ~ .primera70{
+    margin-left: -50%;
+}
+
+#radio78:checked ~ .primera70{
+    margin-left: -75%;
+}
+
+
+#radio85:checked ~ .primera80{
+    margin-left: 0;
+}
+
+#radio86:checked ~ .primera80{
+    margin-left: -25%;
+}
+
+#radio87:checked ~ .primera80{
+    margin-left: -50%;
+}
+
+#radio88:checked ~ .primera80{
+    margin-left: -75%;
+}
+
+
+
+
+@media only screen and (max-width: 1600px) {
+    .slider {
+      margin: 2vh 5.1vh;
+    }
+
+
+   
+    .StyDivItm{
+        width: 96.2vh;
+    }
+
+    
+  }
+
+  @media only screen and (max-width: 700px) {
+    .StyDiv{
+        margin: 0;
+    }
+    .StyDivItm{
+        width: 40vh;
+        height: 20vh;
+        
+    }
+   
+  }
